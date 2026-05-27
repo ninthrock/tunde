@@ -9,24 +9,24 @@ An early 2026 prototype of what AI-native dev advocacy could look like.
 
 Everything is being built in the open, phase by phase.
 
-| Phase | What it covers                  | Status      |
-|-------|---------------------------------|-------------|
-| 1     | Architecture & specification    | ✅ Complete |
-| 2     | Tool use — GitHub integration   | In progress |
-| 3     | Memory & state                  | **Design + stub complete** |
-| 4     | Evaluation layer                | Not started |
-| 5     | Multi-agent coordination        | Not started |
-| 6     | Guardrails & accountability     | Not started |
+| Phase | What it covers                  | Status                      |
+|-------|---------------------------------|-----------------------------|
+| 1     | Architecture & specification    | ✅ Complete                 |
+| 2     | Tool use — GitHub integration   | In progress                 |
+| 3     | Memory & state                  | **Design + stub complete**  |
+| 4     | Evaluation layer                | Not started                 |
+| 5     | Multi-agent coordination        | Not started                 |
+| 6     | Guardrails & accountability     | Not started                 |
 
 ## Architecture
 
 ```mermaid
 flowchart TD
     subgraph "Imbue Open-Source Stack"
-        B[Blueprint<br>Planning] 
-        M[mngr<br>Agent Orchestration]
-        L[Latchkey<br>GitHub Auth]
-        D[Detent<br>Safety & Permissions]
+        B[Blueprint<br>— Planning]
+        M[mngr<br>— Agent Orchestration]
+        L[Latchkey<br>— GitHub Auth]
+        D[Detent<br>— Safety & Permissions]
     end
 
     subgraph "Soul OS<br>(Domain Cognition Layer)"
@@ -42,8 +42,9 @@ flowchart TD
         PM[Post-Mortem<br>→ Reflection & learning]
     end
 
-    Imbue --> SoulOS
-    SoulOS --> TundeCrew
+    ImbueStack["Imbue Stack"] --> SoulOS
+    SoulOS --> TundeCrew["Tunde Crew"]
     TundeCrew --> GitHub[GitHub Repositories]
-    
-    style SoulOS fill:#4ade80,stroke:#166534
+
+    style SoulOS fill:#4ade80,stroke:#166534,stroke-width:3px
+    style TundeCrew fill:#64748b,stroke:#334155
