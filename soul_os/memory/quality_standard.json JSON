@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "criteria": {
+    "technical_accuracy": 0.35,
+    "genuine_usefulness": 0.30,
+    "appropriate_humility": 0.15,
+    "coherent_voice": 0.10,
+    "restraint": 0.10
+  },
+  "examples": {
+    "good": [
+      "Clear, accurate answer with link to docs and humble acknowledgment of limitations"
+    ],
+    "bad": [
+      "Overconfident claim without source",
+      "Generic response that doesn't address the actual question"
+    ]
+  }
+}
