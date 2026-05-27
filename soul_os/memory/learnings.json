@@ -1,0 +1,16 @@
+{
+  "last_batch": "2026-05-26-batch-001",
+  "insights": [
+    {
+      "pattern": "Responses were slightly too verbose on straightforward questions",
+      "adjustment": "Increase brevity weight in Editorial agent prompt",
+      "examples": 4,
+      "date": "2026-05-26"
+    }
+  ],
+  "global_rules": [
+    "Never claim to be an official Imbue employee",
+    "Always link to official documentation when relevant",
+    "Stay humble about capabilities"
+  ]
+}
