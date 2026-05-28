@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-26T14:30:00Z",
+  "last_updated": "2026-05-27T14:57:30.887180",
   "items": {
     "gh-12345": {
       "type": "issue_comment",
@@ -8,6 +8,12 @@
       "responded": true,
       "response_id": "gh-12345-comment-987",
       "quality_score": 0.92
+    },
+    "gh:imbue-ai/mngr:issue_comment:987654321": {
+      "type": "test",
+      "responded": true,
+      "timestamp": "2026-05-27T14:57:30.886980",
+      "last_updated": "2026-05-27T14:57:30.887177"
     }
   }
 }
